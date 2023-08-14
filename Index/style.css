@@ -18,7 +18,6 @@ body {
 /* firstSection start */
 .firstSection {
   background-image: url("./Group\ 271\ 1.jpg");
-  /* width: 100%; */
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -88,7 +87,6 @@ body {
   height: 42px;
   margin-top: 12px;
   border: none;
-
 }
 /* NAV BAR END */
 
@@ -98,11 +96,25 @@ body {
   margin-bottom: -16px;
   padding-left: 180px;
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .personal-image {
     margin-top: -30px;
     padding-left: 30px;
     margin-bottom: -90px;
+  }
+}
+@media (max-width: 352px) {
+  .personal-image {
+    padding-left: 60px;
+    margin-bottom: -90px;
+    padding-top: -120;
+  }
+}
+@media (min-width: 353px) and (max-width: 420px) {
+  .personal-image {
+    padding-left: 120px;
+    margin-bottom: -90px;
+    padding-top: -320;
   }
 }
 .hero-section {
@@ -164,6 +176,12 @@ body {
     font-weight: 700;
   }
 }
+@media (max-width: 420px) {
+  .h1-morfisam {
+    font-size: 45px;
+    letter-spacing: normal;
+  }
+}
 .p-morfisam {
   font-family: "Raleway";
   font-size: 20px;
@@ -173,6 +191,11 @@ body {
 @media (min-width: 769px) {
   .p-morfisam {
     font-size: 32px;
+  }
+}
+@media (max-width: 769px) {
+  .p-morfisam {
+    font-size: 18px;
   }
 }
 .skill-icons {
@@ -187,6 +210,13 @@ body {
     height: 48px;
     margin-right: 24px;
     margin-bottom: 0px;
+  }
+}
+@media (max-width: 420px) {
+  .skill-icons {
+    width: 33px;
+    height: 33px;
+    margin-bottom: 12px;
   }
 }
 /* HERO SECTION END */
