@@ -182,6 +182,12 @@ body {
     letter-spacing: normal;
   }
 }
+@media (max-width: 315px) {
+  .h1-morfisam {
+    font-size: 33px;
+    letter-spacing: normal;
+  }
+}
 .p-morfisam {
   font-family: "Raleway";
   font-size: 20px;
