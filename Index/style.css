@@ -299,43 +299,54 @@ body {
 .h3-footer {
   text-align: center;
   font-size: 30px;
-  margin-top: -12px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1050px) {
   .h3-footer {
-    font-size: 24px;
-    /* padding-left: 90px; */
-    /* padding-right: 90px; */
+    font-size: 23px;
   }
 }
-@media (max-width: 768px) {
-  .float {
-    float: right;
-    margin-top: -24px;
+@media (min-width: 768px) and (max-width: 870px) {
+  .h3-footer {
+    font-size: 20px;
   }
 }
-@media (max-width: 768px) {
+.krug {
+  border: 3px solid transparent;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(#ffffff, #ffffff) padding-box,
+    linear-gradient(to right, #01d2dd, #a43aac, #f8a506) border-box;
+  background-origin: padding-box, border-box;
+  background-clip: padding-box, border-box;
+}
+@media (max-width: 1111px) {
   .footer-p {
-    margin-left: -60px;
-    margin-top: 18px;
+    font-size: 15px;
   }
 }
 .footer-h6 {
   font-size: 24px;
 }
-@media (max-width: 768px) {
+@media (max-width: 867px) {
   .footer-h6 {
-    margin-top: -9px;
-    margin-left: -12px;
+    font-size: 19px;
+  }
+}
+@media (max-width: 767px) {
+  .footer-h6 {
+    font-size: 20px;
+    margin-top: -32px;
+  }
+}
+@media (max-width: 342px) {
+  .footer-h6 {
+    font-size: 18px;
+    margin-top: -31px;
   }
 }
 li.li-footer {
   list-style: none;
-}
-@media (max-width: 768px) {
-  .li-footer {
-    margin-bottom: 63px !important;
-  }
 }
 .footer-left {
   width: 100%;
@@ -359,14 +370,7 @@ li.li-footer {
   .li-footer {
     border-radius: 15px;
     display: flex;
-    /* justify-content: flex-start; */
     flex-direction: row;
-    padding: 10px;
-  }
-}
-@media (max-width: 768px) {
-  .lets-chat {
-    margin-top: 24px;
   }
 }
 .chat-form {
@@ -377,7 +381,7 @@ li.li-footer {
     rgba(243, 245, 254, 0.2) 58.33%,
     rgba(243, 245, 254, 0.05) 100%
   );
-  border-radius: 15px;
+  border-radius: 25px;
 }
 .double-size-textarea {
   height: 200px;
@@ -386,39 +390,18 @@ li.li-footer {
   background-color: #04144c;
   color: #f3f5fe;
   width: 200px;
-  border-radius: 15px;
+  border-radius: 21px;
   border: none;
 }
 .links-section {
   background: linear-gradient(#04144c, #04144c) padding-box,
     linear-gradient(to right, #01d2dd, #a43aac, #f8a506) border-box;
-  border-radius: 7px;
+  border-radius: 15px;
   border: 2px solid transparent;
 }
-@media (min-width: 769px) {
+@media (max-width: 375px) {
   .links-section {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-.count {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: inset 0 0 0 2px #a43aac, inset 0 0 0 3px #f8a506;
-  background: white;
-}
-@media (min-width: 769px) {
-  .count {
-    margin-right: 24px;
-    margin-left: 24px;
-  }
-}
-@media (max-width: 768px) {
-  .count {
-    margin-left: 18px;
-    margin-top: 15px;
+    font-size: small;
   }
 }
 .contact-icon {
@@ -433,6 +416,7 @@ li.li-footer {
 @media (min-width: 768px) {
   .footer-email {
     padding-left: 12px;
+    padding-right: 15px;
   }
 }
 @media (min-width: 768px) {
