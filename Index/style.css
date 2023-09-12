@@ -176,7 +176,7 @@ body {
     font-weight: 700;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 576px) {
   .h1-morfisam {
     font-size: 45px;
     letter-spacing: 1.8px;
