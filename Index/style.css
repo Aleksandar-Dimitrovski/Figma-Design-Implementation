@@ -36,19 +36,16 @@ body {
 #navbarNav {
   justify-content: flex-end;
 }
+.navbar {
+  padding-top: 0px;
+}
 .navbar-nav {
-  padding: 0px;
+  padding-top: 0px;
 }
 .navbar-brand {
   color: aliceblue;
   font-size: 36px;
   font-weight: bold;
-  padding-top: 12px;
-}
-@media (min-width: 769px) {
-  .navbar-brand {
-    margin-top: -15px;
-  }
 }
 .nav-item {
   margin-left: 60px;
@@ -61,9 +58,6 @@ body {
 .navbar ul li a {
   color: white;
 }
-.navbar-redirections {
-  margin-top: -10px;
-}
 .btn-contact {
   background: #fc4a1a;
   background: -webkit-linear-gradient(to right, #f8a506, #a43aac);
@@ -75,7 +69,6 @@ body {
   font-size: 20px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  margin-top: -8px;
 }
 .navbar-toggler {
   border: none;
@@ -87,13 +80,11 @@ body {
     text-align: end;
     /* max-width: none; */
     border-radius: 6px;
-    margin-top: 33px;
   }
 }
 .menu-btn {
   width: 57px;
   height: 45px;
-  margin-top: 12px;
   border: none;
 }
 /* NAV BAR END */
