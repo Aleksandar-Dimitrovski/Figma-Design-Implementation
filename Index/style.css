@@ -15,32 +15,15 @@ body {
   background-color: #04144e;
   color: #f3f5fe;
 }
-/* firstSection start */
 .firstSection {
   background-image: url("./Group\ 271\ 1.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
 }
-@media (max-width: 575px) {
-  .firstSection {
-    background-image: url("./Group\ 271\ 1.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 99vh;
-  }
-}
-/* firstSection end */
-
 /* NAV BAR START */
 #navbarNav {
   justify-content: flex-end;
-}
-.navbar {
-  padding-top: 0px;
-}
-.navbar-nav {
-  padding-top: 0px;
 }
 .navbar-brand {
   color: aliceblue;
@@ -76,9 +59,8 @@ body {
   font-size: xx-large;
 }
 @media (max-width: 992px) {
-  .navbar-collapse {
-    text-align: end;
-    /* max-width: none; */
+  .navbar-nav {
+    align-items: end !important;
     border-radius: 6px;
   }
 }
@@ -116,21 +98,6 @@ body {
     padding-top: -320;
   }
 }
-/* .hero-section {
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-weight: bold;
-}
-@media (min-width: 769px) {
-  .hero-section {
-    width: 100%;
-    height: 63vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-} */
 .glass-morfisam {
   border-radius: 50px;
   background: linear-gradient(
