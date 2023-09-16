@@ -109,7 +109,7 @@ body {
   );
   backdrop-filter: blur(7.5px);
   border: 4px solid rgba(252, 254, 243, 0.36);
-  height: 78vh;
+  height: 74vh;
 }
 @media (min-width: 992px) {
   .glass-morfisam {
@@ -147,13 +147,13 @@ body {
 @media (min-width: 1400px) {
   .h1-morfisam {
     font-size: 90px;
-    font-weight: 700;
+    font-weight: 800;
   }
 }
 @media (min-width: 1200px) {
   .h1-morfisam {
     font-size: 75px;
-    font-weight: 700;
+    font-weight: 800;
   }
 }
 @media (max-width: 576px) {

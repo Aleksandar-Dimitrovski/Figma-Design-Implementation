@@ -94,7 +94,7 @@ body {
   );
   backdrop-filter: blur(7.5px);
   border: 4px solid rgba(252, 254, 243, 0.36);
-  height: 78vh;
+  height: 74vh;
 }
 @media (min-width: 769px) {
   .glass-morfisam {
@@ -132,13 +132,13 @@ body {
 @media (min-width: 1400px) {
   .h1-morfisam {
     font-size: 90px;
-    font-weight: 700;
+    font-weight: 800;
   }
 }
 @media (min-width: 1200px) {
   .h1-morfisam {
     font-size: 75px;
-    font-weight: 700;
+    font-weight: 800;
   }
 }
 @media (max-width: 576px) {
@@ -287,18 +287,8 @@ body {
 .profile-image {
   width: auto;
   height: auto;
-  opacity: 0.63;
+  opacity: 0.39;
 }
-/* @media (min-width: 992px) {
-  .hobbiessection {
-    margin-top: 90px !important;
-  }
-}
-@media (min-width: 576px) {
-  .hobbiessection {
-    margin-top: 163px !important;
-  }
-} */
 .hobbiessection {
   position: relative;
   width: 100%;
