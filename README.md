@@ -1,6 +1,6 @@
 Implementation of a Figma design
 
-This is a static and responsive portfolio page that adapts to all devices. It consists of 2 pages and was created with HTML, CSS, Bootstrap and JavaScript, based on a Figma design by a UX/UI student. It was built from scratch.
+This is a static and responsive portfolio page that adapts to all devices. It consists of 2 pages and was created with HTML, CSS, Bootstrap and JavaScript, based on a Figma design by a UX/UI developer. It was built from scratch.
 
 Overview
 This portfolio page serves as a platform to showcase Marija's design skills and projects. It includes a hero section with a brief introduction, skill icons, and additional information about her work.
