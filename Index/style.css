@@ -247,6 +247,7 @@ body {
   }
 }
 .project-image {
+  background-color: transparent;
   width: 100%;
   object-fit: cover;
 }
@@ -262,6 +263,10 @@ body {
   font-weight: 700; /* Equivalent to 'bold' */
   font-size: 27px;
   text-align: left;
+}
+.unbolded-text {
+  font-weight: normal;
+  font-size: 20px;
 }
 .p-project {
   font-family: "Nunito Sans";
