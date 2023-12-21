@@ -189,6 +189,13 @@ body {
     font-size: 18px;
   }
 }
+.p-morfisam .hero-dark {
+  color: #04144c;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: inherit;
+}
 .skill-icons {
   width: 36px;
   height: 36px;
