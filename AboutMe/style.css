@@ -25,9 +25,6 @@ body {
 #navbarNav {
   justify-content: flex-end;
 }
-.navbar-nav {
-  align-items: center;
-}
 .navbar-brand {
   color: aliceblue;
   font-size: 36px;
@@ -45,17 +42,9 @@ body {
   color: white;
 }
 .btn-contact {
-  background: #fc4a1a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f8a506,
-    #a43aac
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #04144e,
-    #a43aac
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #fc4a1a;
+  background: -webkit-linear-gradient(to right, #f8a506, #a43aac);
+  background: linear-gradient(to bottom, #04144e, #a43aac);
   color: #f3f5fe;
   border: 3px solid #f3f5fe;
   border-radius: 35px;
@@ -83,6 +72,32 @@ body {
 /* NAV BAR END */
 
 /* HERO SECTION START */
+.personal-image {
+  margin-top: -340px;
+  margin-bottom: -16px;
+  padding-left: 180px;
+}
+@media (min-width: 769px) {
+  .personal-image {
+    margin-top: -30px;
+    padding-left: 30px;
+    margin-bottom: -90px;
+  }
+}
+@media (max-width: 352px) {
+  .personal-image {
+    padding-left: 60px;
+    margin-bottom: -90px;
+    padding-top: -120;
+  }
+}
+@media (min-width: 353px) and (max-width: 420px) {
+  .personal-image {
+    padding-left: 120px;
+    margin-bottom: -90px;
+    padding-top: -320;
+  }
+}
 .glass-morfisam {
   border-radius: 50px;
   background: linear-gradient(
@@ -94,9 +109,9 @@ body {
   );
   backdrop-filter: blur(7.5px);
   border: 4px solid rgba(252, 254, 243, 0.36);
-  height: 74vh;
+  height: 78vh;
 }
-@media (min-width: 769px) {
+@media (min-width: 992px) {
   .glass-morfisam {
     padding-left: 90px !important;
     padding-top: 48px !important;
@@ -174,16 +189,17 @@ body {
     font-size: 18px;
   }
 }
-@media (max-width: 375px) {
-  .morfism-right {
-    display: none;
-  }
+.p-morfisam .hero-dark {
+  color: #04144c;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: inherit;
 }
 .skill-icons {
   width: 36px;
   height: 36px;
   margin-bottom: 24px;
-  margin-right: 24px;
 }
 @media (min-width: 576px) {
   .skill-icons {
@@ -203,7 +219,7 @@ body {
 }
 /* HERO SECTION END */
 
-.h1-my-way {
+.my-work {
   text-align: center;
   font-size: 36px;
 }
@@ -237,9 +253,10 @@ body {
     padding-bottom: 33px;
   }
 }
-.search-image {
-  width: 36px;
-  height: 36px;
+.project-image {
+  background-color: transparent;
+  width: 100%;
+  object-fit: cover;
 }
 @media (min-width: 769px) {
   .project-text {
@@ -250,19 +267,13 @@ body {
 }
 .h5-project {
   font-family: "Raleway";
-  font-weight: 700;
+  font-weight: 700; /* Equivalent to 'bold' */
   font-size: 27px;
   text-align: left;
 }
-@media (min-width: 769px) {
-  .h5-project {
-    padding-left: 18px;
-  }
-}
-@media (min-width: 769px) {
-  .search-image {
-    margin-left: 45px;
-  }
+.unbolded-text {
+  font-weight: normal;
+  font-size: 20px;
 }
 .p-project {
   font-family: "Nunito Sans";
@@ -270,17 +281,9 @@ body {
 }
 .btn-seemore {
   text-align: center;
-  background: #f8a506; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f8a506,
-    #a43aac
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #f8a506,
-    #a43aac
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #f8a506;
+  background: -webkit-linear-gradient(to right, #f8a506, #a43aac);
+  background: linear-gradient(to bottom, #f8a506, #a43aac);
   color: #f3f5fe;
   border: 3px solid #f3f5fe;
   border-radius: 35px;
@@ -288,56 +291,6 @@ body {
   width: 190px;
   height: 33px;
 }
-/* SECTION HOBIES & INTEREST START*/
-.profile-image {
-  width: auto;
-  height: auto;
-  opacity: 0.39;
-}
-.hobbiessection {
-  position: relative;
-  width: 100%;
-  margin-top: 111px !important;
-}
-.hobbiessection::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(1, 210, 221, 0.7) 0%,
-    rgba(164, 58, 172, 0.7) 48.23%,
-    rgba(248, 165, 6, 0.7) 100%
-  );
-  background-position: center;
-  background-size: cover;
-  filter: blur(25px);
-  opacity: 0.63; /* Adjust opacity if necessary */
-  z-index: -1; /* Place this pseudo-element below other content */
-}
-
-.hobbiessection .background {
-  filter: blur(25px);
-  opacity: 0.6000000238418579;
-  border: 2px solid red;
-}
-.blur-background {
-  filter: blur(25px);
-  opacity: 0.6000000238418579;
-}
-.cv {
-  color: aliceblue;
-  text-decoration: none;
-  text-align: center;
-}
-.h1-titles {
-  text-align: center;
-  font-size: 27px;
-}
-/* SECTION HOBIES & INTEREST END*/
 
 /* FOOTER SECTION START */
 .h3-footer {
