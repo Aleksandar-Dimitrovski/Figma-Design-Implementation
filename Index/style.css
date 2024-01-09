@@ -84,18 +84,25 @@ body {
     margin-bottom: -90px;
   }
 }
-@media (max-width: 352px) {
+/* @media (max-width: 352px) {
   .personal-image {
     padding-left: 60px;
     margin-bottom: -90px;
     padding-top: -120;
   }
-}
-@media (min-width: 353px) and (max-width: 420px) {
+} */
+@media (min-width: 323px) and (max-width: 576px) {
   .personal-image {
-    padding-left: 120px;
-    margin-bottom: -90px;
-    padding-top: -320;
+    /* padding-left: 120px; */
+    /* margin-bottom: -90px; */
+    padding-top: 120px;
+    padding-right: 20px;
+    border: 2px solid red;
+  }
+}
+@media (max-width: 352px) {
+  .personal-image {
+    display: none;
   }
 }
 .glass-morfisam {
@@ -170,23 +177,33 @@ body {
 }
 .p-morfisam {
   font-family: "Raleway";
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
   text-align: left;
 }
 @media (min-width: 1400px) {
   .p-morfisam {
-    font-size: 32px;
+    font-size: 27px;
   }
 }
 @media (min-width: 1200px) {
   .p-morfisam {
-    font-size: 27px;
+    font-size: 21px;
   }
 }
-@media (max-width: 769px) {
+/* @media (max-width: 769px) {
   .p-morfisam {
     font-size: 18px;
+  }
+} */
+/* @media (max-width: 375px) {
+  .p-morfisam {
+    font-size: 15px;
+  }
+} */
+@media (max-width: 375px) {
+  .morfism-right {
+    font-size: 15px;
   }
 }
 .p-morfisam .hero-dark {
@@ -215,6 +232,12 @@ body {
     width: 33px;
     height: 33px;
     margin-bottom: 12px;
+  }
+}
+@media (max-width: 352px) {
+  .threeIcons {
+    display: flex !important;
+    justify-content: space-around;
   }
 }
 /* HERO SECTION END */
