@@ -15,6 +15,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
   </head>
   <body>
     <div class="firstSection">
@@ -99,11 +104,11 @@
             />
           </div>
           <div class="col project-text">
-            <h5 class="text-center text-md-start h5-project my-4">Project:  University Clinic for Surgical Diseases "St. Naum Ohridski" <span class="unbolded-text">Augut 2023</span></h5>
-            <div class="p-project">
-              <p>Objective: Website Redesign for WordPress <br>
+            <h5 class="text-center text-start h5-project my-4">Project:  University Clinic for Surgical Diseases "St. Naum Ohridski" <span class="unbolded-text">August 2023</span></h5>
+            <div>
+              <p class="p-project">Objective: Website Redesign for WordPress <br>
                 The goal of this project is to redesign the Stobi Winery website on WordPress with a focus on:
-                <ul>
+                <ul class="p-project">
                 <li>Narrating the rich history of Stobi Winery, its wine region, and commitment to quality production.
                 </li>
                 <li>Showcasing the diverse flavors of our wines, any awards received, and suggested food pairings.
@@ -129,16 +134,16 @@
             />
           </div>
           <div class="col project-text">
-            <h5 class="text-center text-md-start h5-project my-4">Project Hackathon: Stobi Winery <span class="unbolded-text"> (stobiwinery.mk)  April 2023</span></h5>
-            <div class="p-project">
-              <p>Objective: Website Redesign for WordPress <br>
-                The goal of this project is to redesign the Stobi Winery website on WordPress with a focus on:
-                <ul>
-                <li>Narrating the rich history of Stobi Winery, its wine region, and commitment to quality production.
+            <h5 class="text-center text-start h5-project my-4">Project: Stobi Winery E-Shop  <span class="unbolded-text"> (stobiwinery.mk)  July 2023</span></h5>
+            <div>
+              <p class="p-project">Objective: E-Shop Design for WooCommerce <br>
+                The goal of this project was to design an e-shop to facilitate:
+                <ul class="p-project">
+                <li>Online sales of our self-produced wines.
                 </li>
-                <li>Showcasing the diverse flavors of our wines, any awards received, and suggested food pairings.
+                <li>Enabling wine orders even on non-working days of the winery.
                 </li>
-                <li>Introducing the winery to potential external collaborators and importers.               
+                <li>Providing users with opportunities for loyalty rewards, surprises, and discounts.               
               </ul>
             </p>
             </div>
@@ -159,11 +164,11 @@
             />
           </div>
           <div class="col project-text">
-            <h5 class="text-center text-md-start h5-project my-4">Project Hackathon: Stobi Winery <span class="unbolded-text"> (stobiwinery.mk)  April 2023</span></h5>
-            <div class="p-project">
-              <p>Objective: Website Redesign for WordPress <br>
+            <h5 class="text-center text-start h5-project my-4">Project Hackathon: Stobi Winery <span class="unbolded-text"> (stobiwinery.mk)  April 2023</span></h5>
+            <div>
+              <p class="p-project">Objective: Website Redesign for WordPress <br>
                 The goal of this project is to redesign the Stobi Winery website on WordPress with a focus on:
-                <ul>
+                <ul class="p-project">
                 <li>Narrating the rich history of Stobi Winery, its wine region, and commitment to quality production.
                 </li>
                 <li>Showcasing the diverse flavors of our wines, any awards received, and suggested food pairings.
@@ -189,10 +194,10 @@
             />
           </div>
           <div class="col project-text">
-            <h5 class="text-center text-md-start h5-project my-4">Project: The Scout Association of Macedonia  <span class="unbolded-text">(Izvidnici.mk) March 2023</span></h5>
-            <div class="p-project">
-              <p>Objective: Website Design for Scouts<br>The goal of this project is to design a website for scouts with a focus on:
-                <ul>
+            <h5 class="text-center text-start h5-project my-4">Project: The Scout Association of Macedonia  <span class="unbolded-text">(Izvidnici.mk) March 2023</span></h5>
+            <div>
+              <p class="p-project">Objective: Website Design for Scouts<br>The goal of this project is to design a website for scouts with a focus on:
+                <ul class="p-project">
                 <li>Raising awareness among young people about scouting.
                 </li>
                 <li>Familiarizing users with the organization's programs and safety measures.
@@ -374,33 +379,6 @@
         <p>all rights resived 2023</p>
       </div>
     <!--FOOTER SECTION END-->
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        // Get the collapse button and the collapse element
-        const collapseButton = document.querySelector('[data-bs-toggle="collapse"]');
-        const collapseElement = document.querySelector(collapseButton.getAttribute("data-bs-target"));
-    
-        // Add an event listener to the document to close the collapse when clicking outside
-        document.addEventListener("click", function (event) {
-          if (
-            !collapseElement.contains(event.target) && // Clicked outside of the collapse
-            !collapseButton.contains(event.target) // Clicked outside of the collapse button
-          ) {
-            // Check if the collapse is currently open
-            if (collapseElement.classList.contains("show")) {
-              // Close the collapse
-              bootstrap.Collapse.getOrCreateInstance(collapseElement).hide();
-            }
-          }
-        });
-      });
-    </script>
-       
+    <script src="./index.js"></script>       
   </body>
 </html>
