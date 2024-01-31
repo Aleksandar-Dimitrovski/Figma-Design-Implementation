@@ -130,6 +130,7 @@ body {
 }
 .h3-morfisam {
   font-family: "Raleway";
+  font-weight: 600;
   font-size: 30px;
   text-align: start;
 }
@@ -143,13 +144,13 @@ body {
 @media (min-width: 1200px) {
   .h3-morfisam {
     font-family: "Raleway";
-    font-size: 36px;
+    font-size: 42px;
     text-align: start;
   }
 }
 .h1-morfisam {
   font-size: 60px;
-  font-family: "Raleway";
+  font-family: "Nunito Sans";
   color: #04144c;
   font-weight: 900;
   text-align: start;
@@ -157,7 +158,7 @@ body {
 }
 @media (min-width: 1400px) {
   .h1-morfisam {
-    font-size: 72px;
+    font-size: 81px;
     font-weight: 800;
   }
 }
@@ -201,16 +202,6 @@ body {
     font-size: 21px;
   }
 }
-/* @media (max-width: 769px) {
-  .p-morfisam {
-    font-size: 18px;
-  }
-} */
-/* @media (max-width: 375px) {
-  .p-morfisam {
-    font-size: 15px;
-  }
-} */
 @media (max-width: 375px) {
   .morfism-right {
     font-size: 15px;
@@ -253,6 +244,8 @@ body {
 /* HERO SECTION END */
 
 .my-work {
+  font-family: "Raleway";
+  font-weight: 900;
   text-align: center;
   font-size: 36px;
 }
