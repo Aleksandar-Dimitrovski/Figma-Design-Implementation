@@ -132,7 +132,7 @@ body {
 .h3-morfisam {
   font-family: "Raleway";
   font-weight: 600;
-  font-size: 30px;
+  font-size: 33px;
   text-align: start;
 }
 @media (max-width: 870px) {
@@ -456,6 +456,8 @@ li.li-footer {
     linear-gradient(to right, #01d2dd, #a43aac, #f8a506) border-box;
   border-radius: 15px;
   border: 2px solid transparent;
+  /* padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;  */
 }
 @media (max-width: 375px) {
   .links-section {
