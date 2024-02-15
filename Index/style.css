@@ -72,9 +72,6 @@ body {
 /* NAV BAR END */
 
 /* HERO SECTION START */
-/* .img-fluid {
-  padding-left: 100px;
-} */
 .personal-image {
   margin-top: -360px;
   margin-bottom: -16px;
@@ -140,17 +137,17 @@ body {
     font-size: 27px;
   }
 }
-@media (min-width: 1400px) {
-  .h3-morfisam {
-    font-family: "Raleway";
-    font-size: 45px;
-    text-align: start;
-  }
-}
 @media (min-width: 1200px) {
   .h3-morfisam {
     font-family: "Raleway";
     font-size: 42px;
+    text-align: start;
+  }
+}
+@media (min-width: 1400px) {
+  .h3-morfisam {
+    font-family: "Raleway";
+    font-size: 45px;
     text-align: start;
   }
 }
