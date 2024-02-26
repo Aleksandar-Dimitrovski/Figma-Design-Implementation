@@ -77,7 +77,7 @@ body {
   margin-bottom: -16px;
   padding-left: 180px;
   align-self: center;
-  opacity: 0.8;
+  opacity: 0.42;
 }
 @media (min-width: 992px) {
   .personal-image {
