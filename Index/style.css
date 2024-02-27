@@ -29,7 +29,6 @@ body {
   max-width: 100%;
   height: auto;
   width: 99px;
-  /* border: 2px solid red; */
 }
 @media (max-width: 992px) {
   .navbar-brand img {    
