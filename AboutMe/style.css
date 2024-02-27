@@ -25,13 +25,16 @@ body {
 #navbarNav {
   justify-content: flex-end;
 }
-.navbar-nav {
-  align-items: center;
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+  width: 99px;
 }
-.navbar-brand {
-  color: aliceblue;
-  font-size: 36px;
-  font-weight: bold;
+@media (max-width: 992px) {
+  .navbar-brand img {    
+  height: auto;
+  width: 72px;
+  }
 }
 .nav-item {
   margin-left: 60px;
@@ -45,17 +48,17 @@ body {
   color: white;
 }
 .btn-contact {
-  background: #fc4a1a; /* fallback for old browsers */
+  background: #fc4a1a;
   background: -webkit-linear-gradient(
     to right,
     #f8a506,
     #a43aac
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  );
   background: linear-gradient(
     to bottom,
     #04144e,
     #a43aac
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  );
   color: #f3f5fe;
   border: 3px solid #f3f5fe;
   border-radius: 35px;
@@ -94,9 +97,9 @@ body {
   );
   backdrop-filter: blur(7.5px);
   border: 4px solid rgba(252, 254, 243, 0.36);
-  height: 74vh;
+  height: 87vh;
 }
-@media (min-width: 769px) {
+@media (min-width: 992px) {
   .glass-morfisam {
     padding-left: 90px !important;
     padding-top: 48px !important;
@@ -105,20 +108,26 @@ body {
 }
 .h3-morfisam {
   font-family: "Raleway";
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 33px;
   text-align: start;
 }
-@media (min-width: 1400px) {
+@media (max-width: 870px) {
   .h3-morfisam {
-    font-family: "Raleway";
-    font-size: 45px;
-    text-align: start;
+    font-size: 27px;
   }
 }
 @media (min-width: 1200px) {
   .h3-morfisam {
     font-family: "Raleway";
     font-size: 36px;
+    text-align: start;
+  }
+}
+@media (min-width: 1400px) {
+  .h3-morfisam {
+    font-family: "Raleway";
+    font-size: 45px;
     text-align: start;
   }
 }
@@ -132,7 +141,7 @@ body {
 }
 @media (min-width: 1400px) {
   .h1-morfisam {
-    font-size: 72px;
+    font-size: 72px !important;
     font-weight: 800;
   }
 }
@@ -142,7 +151,13 @@ body {
     font-weight: 800;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 1020px) {
+  .h1-morfisam {
+    font-size: 51px;
+    letter-spacing: 1.5px;
+  }
+}
+@media (max-width: 991px) {
   .h1-morfisam {
     font-size: 48px;
     letter-spacing: 1.5px;
@@ -150,7 +165,8 @@ body {
 }
 @media (max-width: 576px) {
   .h1-morfisam {
-    font-size: 45px;
+    font-size: 42px;
+    font-weight: 900 !important;
     letter-spacing: 1.4px;
   }
 }
@@ -162,35 +178,30 @@ body {
 }
 .p-morfisam {
   font-family: "Raleway";
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 600;
   text-align: left;
 }
 @media (min-width: 1400px) {
   .p-morfisam {
-    font-size: 32px;
+    font-size: 27px;
   }
 }
 @media (min-width: 1200px) {
   .p-morfisam {
-    font-size: 27px;
+    font-size: 21px;
   }
 }
 @media (max-width: 769px) {
   .p-morfisam {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media (max-width: 375px) {
   .p-morfisam {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
-/* @media (max-width: 375px) {
-  .morfism-right {
-    display: none;
-  }
-} */
 .p-morfisam .hero-dark {
   color: #04144c;
   font-family: inherit;
@@ -223,10 +234,19 @@ body {
 /* HERO SECTION END */
 
 .h1-my-way {
+  font-family: "Raleway";
+  font-weight: 600;
   text-align: center;
   font-size: 36px;
 }
+@media (max-width: 575px) {
+  .h1-my-way {
+    padding-top: 30px;
+  }
+}
 .get-in-touch {
+  font-family: "Raleway";
+  font-weight: 600;
   text-align: center;
   font-size: 36px;
   margin-bottom: 60px;
@@ -271,7 +291,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 27px;
-  text-align: left;
+  text-align: left !important;
 }
 @media (min-width: 769px) {
   .h5-project {
@@ -286,32 +306,43 @@ body {
 .p-project {
   font-family: "Nunito Sans";
   font-size: 18px;
+  font-weight: 400;
 }
 .btn-seemore {
   text-align: center;
-  background: #f8a506; /* fallback for old browsers */
+  background: #f8a506;
   background: -webkit-linear-gradient(
     to right,
     #f8a506,
     #a43aac
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  );
   background: linear-gradient(
     to bottom,
     #f8a506,
     #a43aac
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  );
   color: #f3f5fe;
   border: 3px solid #f3f5fe;
   border-radius: 35px;
   padding: 0px 30px;
   width: 190px;
   height: 33px;
+  @media (max-width: 767px) {
+  .btn-seemore {
+    width: 100%;
+  }
+}
+}
+@media (max-width: 767px) {
+  .btn-seemore {
+    width: 100%;
+  }
 }
 /* SECTION HOBIES & INTEREST START*/
 .profile-image {
   width: auto;
   height: auto;
-  opacity: 0.39;
+  opacity: 0.33;
 }
 .hobbiessection {
   position: relative;

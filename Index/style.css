@@ -25,10 +25,17 @@ body {
 #navbarNav {
   justify-content: flex-end;
 }
-.navbar-brand {
-  color: aliceblue;
-  font-size: 36px;
-  font-weight: bold;
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+  width: 99px;
+  /* border: 2px solid red; */
+}
+@media (max-width: 992px) {
+  .navbar-brand img {    
+  height: auto;
+  width: 72px;
+  }
 }
 .nav-item {
   margin-left: 60px;
@@ -37,6 +44,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   border: none;
+  padding: 0;
 }
 .navbar ul li a {
   color: white;
@@ -72,15 +80,12 @@ body {
 /* NAV BAR END */
 
 /* HERO SECTION START */
-/* .img-fluid {
-  padding-left: 100px;
-} */
 .personal-image {
   margin-top: -360px;
   margin-bottom: -16px;
   padding-left: 180px;
   align-self: center;
-  opacity: 0.8;
+  opacity: 0.42;
 }
 @media (min-width: 992px) {
   .personal-image {
@@ -132,7 +137,7 @@ body {
 .h3-morfisam {
   font-family: "Raleway";
   font-weight: 600;
-  font-size: 30px;
+  font-size: 33px;
   text-align: start;
 }
 @media (max-width: 870px) {
@@ -140,17 +145,17 @@ body {
     font-size: 27px;
   }
 }
-@media (min-width: 1400px) {
-  .h3-morfisam {
-    font-family: "Raleway";
-    font-size: 45px;
-    text-align: start;
-  }
-}
 @media (min-width: 1200px) {
   .h3-morfisam {
     font-family: "Raleway";
     font-size: 42px;
+    text-align: start;
+  }
+}
+@media (min-width: 1400px) {
+  .h3-morfisam {
+    font-family: "Raleway";
+    font-size: 45px;
     text-align: start;
   }
 }
@@ -258,7 +263,7 @@ body {
 
 .my-work {
   font-family: "Raleway";
-  font-weight: 900;
+  font-weight: 600;
   text-align: center;
   font-size: 36px;
 }
@@ -269,7 +274,7 @@ body {
 }
 .get-in-touch {
   font-family: "Raleway";
-  font-weight: 900;
+  font-weight: 600;
   text-align: center;
   font-size: 36px;
   margin-bottom: 60px;
@@ -456,6 +461,8 @@ li.li-footer {
     linear-gradient(to right, #01d2dd, #a43aac, #f8a506) border-box;
   border-radius: 15px;
   border: 2px solid transparent;
+  /* padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;  */
 }
 @media (max-width: 375px) {
   .links-section {
