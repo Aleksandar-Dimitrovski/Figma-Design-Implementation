@@ -374,10 +374,9 @@ body {
   background-origin: padding-box, border-box;
   background-clip: padding-box, border-box;
 }
-@media (max-width: 1111px) {
-  .footer-p {
-    font-size: 15px;
-  }
+.footer-p {
+  font-family: "Nunito Sans";
+  font-size: 18px;
 }
 .footer-h6 {
   font-family: "Nunito Sans";

@@ -180,7 +180,7 @@ body {
   font-family: "Raleway";
   font-size: 14px;
   font-weight: 600;
-  text-align: left;
+  text-align: justify;
 }
 @media (min-width: 1400px) {
   .p-morfisam {
@@ -305,7 +305,7 @@ body {
 }
 .p-project {
   font-family: "Nunito Sans";
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
 }
 .btn-seemore {
@@ -339,9 +339,10 @@ body {
   }
 }
 /* SECTION HOBIES & INTEREST START*/
-.profile-image {
-  width: auto;
+.profile-image {  
+  max-width: 72%;
   height: auto;
+  /* width: auto; */
   opacity: 0.33;
 }
 .hobbiessection {
@@ -365,21 +366,20 @@ body {
   background-position: center;
   background-size: cover;
   filter: blur(25px);
-  opacity: 0.63; /* Adjust opacity if necessary */
-  z-index: -1; /* Place this pseudo-element below other content */
+  opacity: 0.63;
+  z-index: -1;
 }
 
 .hobbiessection .background {
   filter: blur(25px);
   opacity: 0.6000000238418579;
-  border: 2px solid red;
 }
 .blur-background {
   filter: blur(25px);
   opacity: 0.6000000238418579;
 }
 .cv {
-  color: aliceblue;
+  color: #F8A506;
   text-decoration: none;
   text-align: center;
 }
@@ -414,10 +414,9 @@ body {
   background-origin: padding-box, border-box;
   background-clip: padding-box, border-box;
 }
-@media (max-width: 1111px) {
-  .footer-p {
-    font-size: 15px;
-  }
+.footer-p {
+    font-family: "Nunito Sans";
+    font-size: 18px;
 }
 .footer-h6 {
   font-size: 24px;
